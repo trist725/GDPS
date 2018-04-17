@@ -1,0 +1,108 @@
+[1.head]
+head1=\n\t\t\tGeophysics Data Process System (GDPS)\n
+head2=\n\t\t\t\t     MAIN MENU\n\n
+head3=\n\t\t\t\t    DATA DISPLAY\n\n
+head4=\n\t\t\t\t    DATA APPEND\n\n
+head5=\n\t\t\t\t    DATA DELETE\n\n
+head6=\n\t\t\t\t  DIAGRAM DISPLAY\n\n
+head7=\n\t\t\t\t      OPTION\n\n
+
+[2.mainmenu]
+main=Choosek one of the following:\n\n1. Display all data\n2. Append data\n3. Delete data\n4. Display diagram\n5. Option\n6. Exit\n\n
+
+[3.optionmenu]
+option1= 1. Original data file name: %s\n
+option2= 2. Result data file name: %s\n
+option3= 3. Language: %s\n
+option4= 4. Display decimal digit: OA-%c MN/2-%c U-%c I-%c k-%c p-%c\n
+option5= 5. k visible: %s\n
+option6= 6. Data append mode: %s\n
+option7= 7. Data input everytime: %d\n
+option8= 8. Append data confirm: %s\n
+option9= 9. Back mode after delete: %s\n
+option10=10. Data delete mode: %s\n
+option11=11. Delete data confirm: %s\n
+option12=12. Delete back mode: %s\n
+option13=13. scale config:  X  Interval-%d Amount-%d  Y  Interval-%d Amount-%d\n
+option14=14. Data point visible: %s\n
+option15=15. Point coordinate visible: %s\n
+option16=16. Coordinate display opposite position: \tX-%d\tY-%d\n
+option17=17. Data list visible: %s\n
+option18=18. Graphics color: Coordinate axes-%s Scale-%s Curve-%s \n\t\t    Data point-%s Coordinate value-%s\n
+option19=19. Apply changes\n20. Save changes and back\n21. Back without save\n
+
+[4.menumessage]
+main=\nPlease enter you choose: 
+
+[5.quitmessage]
+anykeyback=\nPress anykey to back... 
+exit=\nThank you for using!\n\nProgrammer: Lin Feng\n2006-7-12\n
+
+[6.dspmessage]
+dsp=\n There are %d data total.\n
+
+[7.appmessage]
+app1=\nPlease input the numbers of input times: 
+app2=\nPlease input %d data:\n\n
+app3=\nPlease input data, input negative to end:\n\n
+app4=\nYou have input %d data:\n\n
+app5=\nSave input data to files?\nYes(Y)/No(N)/save and Continue(C)/Again without save(A): 
+app6=\nData append successful!\n
+app7=\nData append have been cancel!\n
+
+[8.delemessage]
+dele1=\nPlease delete mode.\nOne everytime(O)/input 0 to end(Z): 
+dele2=\nPlease input the data serial number you want to delete: 
+dele3=\nPlease input the data serial number, input 0 to end: 
+dele4=\nYou will delete the data following:\n\n
+dele5=\nDelete these data?\nYes(Y)/No(N)/save and Continue(C)/Again without save(A): 
+dele6=\nData delete successful!\n
+dele7=\nData delete have been cancel!\n
+
+[9.optionmessage]
+option1=请选择语言 中文(C)/英文(E): 
+option2=请输入数据%s显示的小数位数(0-4): 
+option3=请选择添加数据输入方式\n使用默认个数(D)/输入负数结束(N)/每次询问输入数据的个数(A): 
+option4=请选择添加数据后返回方式\n按任意键退出(A)/延迟一定时间退出(W)/直接退出(D): 
+option5=请选择删除数据方式\n每次删除一个数据(O)/输入负数结束(N)/每次询问如何删除(A): 
+option6=请选择删除数据后返回方式\n按任意键退出(A)/延迟一定时间退出(W)/直接退出(D): 
+option7=请输入%c轴刻度间隔: 
+option8=请输入坐标值显示相对坐标点位置%c值: 
+option9=请选择%s显示的颜色\n1. 白色\n2. 红色\n3. 蓝色\n4. 绿色\n5. 黄色\n6. 棕色\n\n请输入您的选择: 
+
+[10.error]
+error1=Input ERROR! Please choose in %s: 
+error2=Input ERROR! Please input integer: 
+error3=Input ERROR! Please input a integer between %d and %d: 
+error4=Input ERROR! You input a negative.\n
+
+[11.boll]
+yes=YES
+no=No
+
+[12.language]
+lan1=English
+lan1=Chinese
+
+[13.appmode]
+appmode1=Default
+appmode2=Negative
+appmode3=Ask
+
+[14.Deledata]
+Deledata1=One
+Deledata2=Zero
+Deledata3=Ask
+
+[15.backmode]
+backmode1=Anykey
+backmode2=Waitabit
+backmode3=Direct
+
+[16.color]
+color1=WHITE
+color2=RED
+color3=BULE
+color4=GREEN
+color5=YELLOW
+color6=BROWN

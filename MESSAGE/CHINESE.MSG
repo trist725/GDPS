@@ -1,0 +1,108 @@
+[1.head]
+head1=\n\t\t\t地球物理数据处理系统\n\t\t(GDPS, Geophysics Data Process System)\n
+head2=\n\t\t\t       主菜单\n\n
+head3=\n\t\t\t      数据浏览\n\n
+head4=\n\t\t\t      数据添加\n\n
+head5=\n\t\t\t      数据删除\n\n
+head6=\n\t\t\t    数据图像查看\n\n
+head7=\n\t\t\t\t设置\n\n
+
+[2.mainmenu]
+main=请从以下操作中选择一项\n\n1. 浏览所有数据\n2. 添加数据\n3. 删除数据\n4. 查看数据图像\n5. 设置\n6. 退出\n\n
+
+[3.optionmenu]
+option1= 1. 原始数据文件名: %s\n
+option2= 2. 计算结果文件名: %s\n
+option3= 3. 语言: %s\n
+option4= 4. 浏览数据时显示的小数位数: OA-%c MN/2-%c U-%c I-%c k-%c p-%c\n
+option5= 5. 是否显示k: %s\n
+option6= 6. 添加数据输入方式: %s\n
+option7= 7. 每次输入条数: %d\n
+option8= 8. 添加数据是否确认: %s\n
+option9= 9. 添加数据后返回方式: %s\n
+option10=10. 删除数据方式: %s\n
+option11=11. 删除数据是否确认: %s\n
+option12=12. 删除数据后返回方式: %s\n
+option13=13. 刻度设置: X轴 刻度间隔-%d 刻度个数-%d  Y轴 刻度间隔-%d 刻度个数-%d\n
+option14=14. 是否显示各数据点: %s\n
+option15=15. 是否显示各点坐标: %s\n
+option16=16. 坐标值显示相对坐标点位置: \tX-%d\tY-%d\n
+option17=17. 是否显示数据表: %s\n
+option18=18. 图像颜色: 坐标轴-%s 刻度-%s 曲线-%s 数据点-%s 坐标值-%s\n
+option19=19. 应用配置更改\n20. 保存配置更改并返回主菜单\n21. 返回主菜单不保存配置更改\n
+
+[4.menumessage]
+main=\n请输入您的选择: 
+
+[5.quitmessage]
+anykeyback=\n按任意键返回主菜单... 
+exit=\n谢谢您的使用!\n\n程序员：林锋\n2006年7月12日\n
+
+[6.dspmessage]
+dsp=\n 共有%d条数据\n
+
+[7.appmessage]
+app1=\n请选择一次输入数据的条数: 
+app2=\n请输入%d条数据:\n\n
+app3=\n请输入数据,输入负数结束\n\n
+app4=\n您已输入%d条数据:\n\n
+app5=\n是否将数据保存至文件?\n是(Y)/否(N)/保存并继续(C)/不保存并重新输入(A): 
+app6=\n数据保存成功!\n
+app7=\n数据已取消保存!\n
+
+[8.delemessage]
+dele1=\n请选择删除数据的方式\n每次只删除一个数据(O)/不断输入直至输入零结束(Z): 
+dele2=\n请输入要删除的数据序号: 
+dele3=\n请输入要删除的数据序号,输入零结束:
+dele4=\n您将删除以下数据:\n\n
+dele5=\n是否将数据以上数据删除?\n是(Y)/否(N)/删除并继续(C)/不删除并重新输入(A): 
+dele6=\n数据删除成功!\n
+dele7=\n数据删除已取消!\n
+
+[9.optionmessage]
+option1=请选择语言 中文(C)/英文(E): 
+option2=请输入数据%s显示的小数位数(0-4): 
+option3=请选择添加数据输入方式\n使用默认个数(D)/输入负数结束(N)/每次询问输入数据的个数(A): 
+option4=请选择添加数据后返回方式\n按任意键退出(A)/延迟一定时间退出(W)/直接退出(D): 
+option5=请选择删除数据方式\n每次删除一个数据(O)/输入负数结束(N)/每次询问如何删除(A): 
+option6=请选择删除数据后返回方式\n按任意键退出(A)/延迟一定时间退出(W)/直接退出(D): 
+option7=请输入%c轴刻度间隔: 
+option8=请输入坐标值显示相对坐标点位置%c值: 
+option9=请选择%s显示的颜色\n1. 白色\n2. 红色\n3. 蓝色\n4. 绿色\n5. 黄色\n6. 棕色\n\n请输入您的选择: 
+
+[10.error]
+error1=输入错误! 请%s从中选择: 
+error2=输入错误! 请输入整数: 
+error3=输入错误! 请输入范围在%d和%d之间的整数: 
+error4=输入错误! 您输入了一个负数!\n
+
+[11.boll]
+yes=是
+no=否
+
+[12.language]
+lan1=英文
+lan1=中文
+
+[13.appmode]
+appmode1=使用默认个数(D)
+appmode2=输入负数结束(N)
+appmode3=每次询问输入数据的个数(A)
+
+[14.Deledata]
+Deledata1=每次删除一个数据(O)
+Deledata2=不断输入直至输入零结束(Z)
+Deledata3=每次询问如何删除(A)
+
+[15.backmode]
+backmode1=按任意键退出(A)
+backmode2=延迟一定时间退出(W)
+backmode3=直接退出(D)
+
+[16.color]
+color1=白色
+color2=红色
+color3=蓝色
+color4=绿色
+color5=黄色
+color6=棕色
